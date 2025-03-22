@@ -95,7 +95,7 @@ public class JSONPlaceholderExercise {
         // 4. Create a JSON string with only the title
         String payload = '{"title": title}';
         // 5. Set the request body
-        request.setBody('payload');
+        request.setBody(payload);
         // 6. Send the request and get the response
         Http http = new Http();
         HttpResponse response = http.send(request);
